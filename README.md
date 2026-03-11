@@ -133,30 +133,3 @@ Example command:
 
 ```bash
 cdo remapbil,gridfile input.nc output.nc
-Key Skills Demonstrated
-
-This project demonstrates expertise in:
-
-Climate data analysis
-
-Handling large climate datasets (NetCDF)
-
-CMIP6 climate model analysis
-
-Climate scenario analysis (SSP pathways)
-
-Spatial data remapping
-
-Statistical trend analysis
-
-Environmental data science workflows
-
-Academic Context
-
-MSc Agriculture and Development
-University of Reading, United Kingdom
-Walker Institute for Climate System Research
-
-Dissertation Title
-
-Assessment of Historical and Future Climate Suitability for Traditional and Diversified Crops in Masindi District, Uganda
