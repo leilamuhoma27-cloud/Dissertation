@@ -1,0 +1,12 @@
+#!/bin/bash
+ cdo genbil,CRU_EA.nc tasmax_day_NESM3_historical_r1i1p1f1_gn_19810101-20141231_v20190812.nc weights01.nc
+ cdo remap,CRU_EA.nc,weights01.nc tasmax_day_NESM3_historical_r1i1p1f1_gn_19810101-20141231_v20190812.nc NESM3_historical.nc
+ cdo setcalendar,proleptic_gregorian NESM3_historical.nc NESM3_historical_gregorian.nc 
+ 
+ cdo genbil,CRU_EA.nc tasmin_day_NESM3_historical_r1i1p1f1_gn_19810101-20141231_v20190812.nc weights02.nc
+ cdo remap,CRU_EA.nc,weights02.nc tasmin_day_NESM3_historical_r1i1p1f1_gn_19810101-20141231_v20190812.nc NESM3tmin_historical.nc
+ cdo setcalendar,proleptic_gregorian NESM3tmin_historical.nc NESM3tmin_historical_gregorian.nc
+ 
+
+ 
+
